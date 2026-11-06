@@ -1,0 +1,217 @@
+[
+  {
+    "source": "python-denoising\\pyproject.toml",
+    "destination": "methods\\qab_dequip\\pyproject.toml",
+    "original_sha256": "01b31f918ff76d3ed93aa71533ea47bf9dcac00f7e360bcd289b20413a434c84"
+  },
+  {
+    "source": "python-denoising\\MANIFEST.in",
+    "destination": "methods\\qab_dequip\\MANIFEST.in",
+    "original_sha256": "436fabcbaf7ab268702e7c72a1baf61ce7017049e15f379a90aa35e39d6b0fea"
+  },
+  {
+    "source": "python-denoising\\requirements-lock.txt",
+    "destination": "methods\\qab_dequip\\requirements-lock.txt",
+    "original_sha256": "7d388017d76cf90696884a710c5514fc6289ca2bb36ca8abf661fb147cce7bd9"
+  },
+  {
+    "source": "python-denoising\\README.md",
+    "destination": "methods\\qab_dequip\\README.md",
+    "original_sha256": "bb9ccc385dfd6f538a89880e37d381a9f6b485a193fd8a18ad086314615363f7"
+  },
+  {
+    "source": "python-denoising\\THIRD_PARTY_NOTICES.md",
+    "destination": "methods\\qab_dequip\\THIRD_PARTY_NOTICES.md",
+    "original_sha256": "7ec1a0b5c1bc64ddccf179ea6d45b59f8f30c1cd91a52d23b34de40e5a771a47"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\__init__.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\__init__.py",
+    "original_sha256": "d9b65e85d6f9ff54e6b1d4c81e5e263c2dd055b3431d8804be18052995086ce2"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\__main__.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\__main__.py",
+    "original_sha256": "11cf323249f4ba4e79c9fb7660c0979fc91a3822bc5362286376b69808b41195"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\benchmark.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\benchmark.py",
+    "original_sha256": "d602d740334fbbb31561835e47365e13041ddff5553e40ada4fd7ee86db140ff"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\cli.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\cli.py",
+    "original_sha256": "f9b0767dda46dac1bb998e95f27a4c48c0c376b0f4030c51ba1f116e54ed29fa"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\core.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\core.py",
+    "original_sha256": "00275c05b3d31d8a6dd52ba1aba87571fcc4165bedecb27df404ef8c53fefa59"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\dequip.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\dequip.py",
+    "original_sha256": "3264a2e59cc77d5ea75b01a7a2e46ecdfa67d5fb3a395a08acc76cd5fbc6390c"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\io.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\io.py",
+    "original_sha256": "913c9991f9f6f2a175279148b70b2e00083483d9ea5914a950263c3504accd49"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\metrics.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\metrics.py",
+    "original_sha256": "404185216ac183f04f5714a2470beb5c8943fb6df17d1d09944a83dc03d1575e"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\noise.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\noise.py",
+    "original_sha256": "2bce1fdf1284ef3cd7056a9c295b3c64185a2f40630615bc25ea2a60016329c5"
+  },
+  {
+    "source": "python-denoising\\src\\quantum_denoising\\qab.py",
+    "destination": "methods\\qab_dequip\\src\\quantum_denoising\\qab.py",
+    "original_sha256": "4bd01f08e7d6f1b81493f983c3fb50dfae71c2b932eb2f518a764a1266a1168c"
+  },
+  {
+    "source": "python-denoising\\tests\\test_audit.py",
+    "destination": "methods\\qab_dequip\\tests\\test_audit.py",
+    "original_sha256": "6e5e4e4ce805acfbef96946f2fc43b429454322dcb34be856a440657c68a8094"
+  },
+  {
+    "source": "python-denoising\\tests\\test_benchmark.py",
+    "destination": "methods\\qab_dequip\\tests\\test_benchmark.py",
+    "original_sha256": "039ce551a003cfc643180c88fa9ae38c1362f862d25ec1129e1c0dac4aee0caa"
+  },
+  {
+    "source": "python-denoising\\tests\\test_numerics.py",
+    "destination": "methods\\qab_dequip\\tests\\test_numerics.py",
+    "original_sha256": "a9cbae98e20de4a55cce984ff5a963c6582d38ab9c68ebf9350512d1412e78ee"
+  },
+  {
+    "source": "python-denoising\\docs\\BENCHMARK.md",
+    "destination": "methods\\qab_dequip\\docs\\BENCHMARK.md",
+    "original_sha256": "8d57794bd6ce3f7f214c2cbbd2dba57d0f51ce7ebb991c5274d94779e9e2c033"
+  },
+  {
+    "source": "python-denoising\\docs\\PORTING.md",
+    "destination": "methods\\qab_dequip\\docs\\PORTING.md",
+    "original_sha256": "938b8a5535cc4b74f77e2ffac4ab4937631873fd94bc72c15dec631f2d972cde"
+  },
+  {
+    "source": "python-denoising\\examples\\denoise_image.py",
+    "destination": "methods\\qab_dequip\\examples\\denoise_image.py",
+    "original_sha256": "d6ccad51afc3c4ca319d70a982ebe8e695d432e2541b6a6e491bcb052c32c1e8"
+  },
+  {
+    "source": "python-denoising\\matlab\\benchmark_upstream.m",
+    "destination": "methods\\qab_dequip\\matlab\\benchmark_upstream.m",
+    "original_sha256": "da0ceffbc5ae59aaeac24da7c58d28ca1501504b10ceb1e0bd44ba3f57d13865"
+  },
+  {
+    "source": "python-denoising\\matlab\\package_online.py",
+    "destination": "methods\\qab_dequip\\matlab\\package_online.py",
+    "original_sha256": "8a29688355a1c74b3da19e354c863d0a29bf28d4f3209d2372e198b1ac955579"
+  },
+  {
+    "source": "python-denoising\\matlab\\run_online.m",
+    "destination": "methods\\qab_dequip\\matlab\\run_online.m",
+    "original_sha256": "4d083ef7cf99934a00a2f3fb12177cc5a8ea930506c9164cbfd8b349364af58a"
+  },
+  {
+    "source": "python-denoising\\licenses\\QAB-MIT.txt",
+    "destination": "methods\\qab_dequip\\licenses\\QAB-MIT.txt",
+    "original_sha256": "d5451af8ce7373a7a05c3f0cf3bed23f0899078ab3f43a2ded382a62407e7952"
+  },
+  {
+    "source": "repos\\DIVA\\DIVA test code for image denoising\\DIVA_training.ipynb",
+    "destination": "methods\\diva\\upstream\\DIVA_training.ipynb",
+    "original_sha256": "1a8ffae487bfbc35c9e8971ccb588cc429fdcd54cef71b31cdafe853d4cd6107"
+  },
+  {
+    "source": "repos\\DIVA\\DIVA test code for image denoising\\test_code.ipynb",
+    "destination": "methods\\diva\\upstream\\test_code.ipynb",
+    "original_sha256": "1c4e3519d7744fb899b8f9c0cfd8f03a4cf113a4084a45ec11f8e69860910cb9"
+  },
+  {
+    "source": "repos\\DIVA\\DIVA test code for image denoising\\Keras_DIVA2D_test.ipynb",
+    "destination": "methods\\diva\\upstream\\Keras_DIVA2D_test.ipynb",
+    "original_sha256": "d223ee123573a01259e660472539a2f8564cf46a067f8338a2758179d966f308"
+  },
+  {
+    "source": "repos\\DIVA\\DIVA test code for image denoising\\generate_image_window_for_training.m",
+    "destination": "methods\\diva\\upstream\\generate_image_window_for_training.m",
+    "original_sha256": "579252b9e0abd0e8fcb8a3076320eb8bea1bdb3abf501c717ca227529eef1a92"
+  },
+  {
+    "source": "repos\\DIVA\\LICENSE",
+    "destination": "methods\\diva\\upstream\\LICENSE",
+    "original_sha256": "7a848f66beac970d05108636f91643e451834c65f116ae7d195d861f1638d333"
+  },
+  {
+    "source": "repos\\DIVA\\README.md",
+    "destination": "methods\\diva\\upstream\\README.md",
+    "original_sha256": "51083b0b6aea21722b406a59c6c91352c6b59a8b0ad98a73635b76e4c09f4eed"
+  },
+  {
+    "source": "kit\\tools\\run_diva_local.py",
+    "destination": "methods\\diva\\run_checkpoint.py",
+    "original_sha256": "ccfcca6e0c8c2f6c60bbe7d98fab973a182b2fb993d37b348da36a90c39c971e"
+  },
+  {
+    "source": "kit\\requirements\\diva_windows.txt",
+    "destination": "methods\\diva\\requirements.txt",
+    "original_sha256": "ed1ef74dfe4271398f0083f51eede64db05cfc781de2d31a7dac03d0986249b6"
+  },
+  {
+    "source": "kit\\diva_research\\hamiltonian_repair.py",
+    "destination": "methods\\haction\\hamiltonian_repair.py",
+    "original_sha256": "926992020e44f734dbd754d868280382a1757e0cbadeb1ed999a853a439d37c2"
+  },
+  {
+    "source": "kit\\diva_research\\audit_hamiltonian.py",
+    "destination": "methods\\haction\\audit_hamiltonian.py",
+    "original_sha256": "cef6192b430093858537339dd28cadc1fce018b2b528d27c59d97f0594677d06"
+  },
+  {
+    "source": "kit\\diva_research\\verify_hamiltonian_math.py",
+    "destination": "methods\\haction\\verify_hamiltonian_math.py",
+    "original_sha256": "d7bd50efcccc30531826aaa2e35c9d12563c97f39e378f434a2e52b057448079"
+  },
+  {
+    "source": "kit\\diva_research\\run_repair_experiments.py",
+    "destination": "methods\\haction\\run_repair_experiments.py",
+    "original_sha256": "d0310057c866060c262e2acd130f739958eacda70482bc6a9443fbbd2b69a877"
+  },
+  {
+    "source": "kit\\diva_research\\run_hamiltonian_sample.py",
+    "destination": "methods\\haction\\run_hamiltonian_sample.py",
+    "original_sha256": "e53b16bc0637f57dee2564c1e2a8f3102da126c3de3273b46b2af6ccd95bd281"
+  },
+  {
+    "source": "outputs\\diva_research\\sources\\Train400_subset64\\manifest.json",
+    "destination": "configs\\train400_subset64_manifest.json",
+    "original_sha256": "811ad3d5e01af7a265dd761c4d02471e12f65aeb639107951518a6aa1e2663fa"
+  },
+  {
+    "source": "outputs\\diva_research\\experiments\\paired_training.json",
+    "destination": "results\\historical\\paired_training.json",
+    "original_sha256": "444c6a6a7ed23f369d91bcc030261d65a56b2a4cbc0e7fa3793045f545a289ae"
+  },
+  {
+    "source": "outputs\\diva_research\\experiments\\training_profile.json",
+    "destination": "results\\historical\\training_profile.json",
+    "original_sha256": "2eacae7a5eeb8cde2f3b018266687ce02764189c9c6554e3d2dc8e91276f6dda"
+  },
+  {
+    "source": "outputs\\diva_research\\experiments\\hamiltonian_review\\math_checks.json",
+    "destination": "results\\historical\\hamiltonian_math_checks.json",
+    "original_sha256": "a33871d3abf72baac2184db46604ba39ac0aae11d266471015f6e6e276ab794e"
+  },
+  {
+    "source": "outputs\\diva\\set12_sigma25_seed0_20261106_run02\\summary.json",
+    "destination": "results\\historical\\diva_set12_sigma25.json",
+    "original_sha256": "f2415e68d825602cf3177576681499fb4d17d33cfea881e1c943bd6a1a3c4b90"
+  }
+]

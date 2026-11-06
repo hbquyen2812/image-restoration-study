@@ -1,0 +1,7 @@
+include README.md THIRD_PARTY_NOTICES.md requirements-lock.txt
+recursive-include licenses *.txt
+recursive-include docs *.md
+recursive-include matlab *.m *.py
+recursive-include tests *.py
+recursive-include examples *.py
+

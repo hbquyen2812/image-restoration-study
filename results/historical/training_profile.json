@@ -1,0 +1,94 @@
+{
+  "status": "completed",
+  "device": "CPU",
+  "threads": 4,
+  "tensorflow": "2.10.1",
+  "measurement": "forward + backward + Adam, eager caller / tf.function step, synchronization via .numpy()",
+  "excludes": "data generation and loading, validation, checkpoint writes; no full training performed",
+  "results": [
+    {
+      "variant": "original_overwritten",
+      "batch_size": 32,
+      "patch_size": 40,
+      "depth": 10,
+      "filters": 64,
+      "params": 927488,
+      "warmup_two_steps_seconds": 6.304635100066662,
+      "samples_seconds": [
+        2.983696899958886,
+        2.7900055999634787,
+        2.9380609000800177,
+        2.9995175999356434,
+        2.8789319000206888
+      ],
+      "median_step_seconds": 2.9380609000800177,
+      "min_step_seconds": 2.7900055999634787,
+      "max_step_seconds": 2.9995175999356434,
+      "estimate_hours_60epochs_1000steps": 48.967681668000296,
+      "estimate_hours_100epochs_1000steps": 81.6128027800005
+    },
+    {
+      "variant": "original_overwritten",
+      "batch_size": 128,
+      "patch_size": 40,
+      "depth": 10,
+      "filters": 64,
+      "params": 927488,
+      "warmup_two_steps_seconds": 22.730301700066775,
+      "samples_seconds": [
+        10.880318499985151,
+        10.817528399988078,
+        10.847470800043084,
+        10.93712860008236,
+        10.751898300019093
+      ],
+      "median_step_seconds": 10.847470800043084,
+      "min_step_seconds": 10.751898300019093,
+      "max_step_seconds": 10.93712860008236,
+      "estimate_hours_60epochs_1000steps": 180.79118000071807,
+      "estimate_hours_100epochs_1000steps": 301.3186333345301
+    },
+    {
+      "variant": "experimental_H_action",
+      "batch_size": 32,
+      "patch_size": 40,
+      "depth": 10,
+      "filters": 64,
+      "params": 927040,
+      "warmup_two_steps_seconds": 6.274270199937746,
+      "samples_seconds": [
+        2.685492299962789,
+        2.8128810999915004,
+        2.73877789999824,
+        2.8265934999799356,
+        2.8666044999845326
+      ],
+      "median_step_seconds": 2.8128810999915004,
+      "min_step_seconds": 2.685492299962789,
+      "max_step_seconds": 2.8666044999845326,
+      "estimate_hours_60epochs_1000steps": 46.881351666525006,
+      "estimate_hours_100epochs_1000steps": 78.13558611087501
+    },
+    {
+      "variant": "experimental_H_action",
+      "batch_size": 128,
+      "patch_size": 40,
+      "depth": 10,
+      "filters": 64,
+      "params": 927040,
+      "warmup_two_steps_seconds": 22.534626999986358,
+      "samples_seconds": [
+        11.043256600038148,
+        11.689280800055712,
+        10.913274200051092,
+        11.00625510001555,
+        11.516532300040126
+      ],
+      "median_step_seconds": 11.043256600038148,
+      "min_step_seconds": 10.913274200051092,
+      "max_step_seconds": 11.689280800055712,
+      "estimate_hours_60epochs_1000steps": 184.05427666730247,
+      "estimate_hours_100epochs_1000steps": 306.75712777883746
+    }
+  ]
+}

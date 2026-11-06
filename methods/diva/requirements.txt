@@ -1,0 +1,8 @@
+# Verified runtime is recorded in each run's pip_freeze.txt.
+tensorflow==2.10.1
+numpy==1.23.5
+scipy==1.10.1
+scikit-image==0.21.0
+matplotlib==3.7.5
+Pillow==10.4.0
+h5py==3.8.0

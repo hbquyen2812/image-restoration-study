@@ -219,7 +219,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-@'
 
 # Local datasets and generated outputs
 /data/
@@ -241,4 +240,12 @@ __pycache__/
 # Local credentials
 .env
 .env.*
-'@ | Add-Content -LiteralPath ".gitignore" -Encoding utf8
+
+# Downloaded upstream repositories and local runtime environments
+/external/
+.venv*/
+*.npy
+*.npz
+*.mat
+*.zip
+!.env.example

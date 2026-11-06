@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-denoising"
+version = "0.1.0"
+description = "Readable NumPy/SciPy implementations of QAB and De-QuIP denoising"
+readme = "README.md"
+license-files = ["THIRD_PARTY_NOTICES.md", "licenses/*.txt"]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "pillow>=10", "matplotlib>=3.7", "threadpoolctl>=3.1", "tzdata>=2024; sys_platform == 'win32'"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "build>=1", "setuptools>=77", "wheel"]
+
+[project.scripts]
+quantum-denoise = "quantum_denoising.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

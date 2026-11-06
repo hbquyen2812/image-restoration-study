@@ -1,0 +1,17 @@
+{
+  "diva": {
+    "directory": "DIVA",
+    "url": "https://github.com/SayantanDutta95/DIVA.git",
+    "commit": "91a1a847500ce43151f243a82dabff8cd0db7c6d"
+  },
+  "qab": {
+    "directory": "QAB-denoising",
+    "url": "https://github.com/SayantanDutta95/QAB-denoising.git",
+    "commit": "0ec04ac1ae9f5022867f5f004ca67e99507c6c9f"
+  },
+  "dequip": {
+    "directory": "De-QuIP-Denoising",
+    "url": "https://github.com/SayantanDutta95/De-QuIP-Denoising.git",
+    "commit": "384e24f217ea71352fd48ff715fb84b0c4b487f8"
+  }
+}

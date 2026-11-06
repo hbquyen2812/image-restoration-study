@@ -1,0 +1,15 @@
+{
+  "count": 12,
+  "dataset": "Set12",
+  "sigma": 25,
+  "seed": 0,
+  "mean_noisy_psnr_db": 20.18018696987926,
+  "mean_denoised_psnr_db": 30.493433116000187,
+  "mean_noisy_ssim": 0.3900608264192513,
+  "mean_denoised_ssim": 0.8638981772295203,
+  "mean_psnr_gain_db": 10.313246146120928,
+  "mean_inference_seconds": 3.1529751666627512,
+  "total_inference_seconds": 37.83570199995302,
+  "wall_seconds_including_model_load_and_exports": 48.273538299952634,
+  "all_images_improved_psnr": true
+}

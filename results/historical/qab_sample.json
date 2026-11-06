@@ -1,0 +1,105 @@
+{
+  "environment": {
+    "timestamp": "2026-11-05T20:04:04.744551+07:00",
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cpu": "Intel(R) Core(TM) Ultra 5 226V",
+    "logical_cpus": 8,
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "package": "0.1.0",
+    "threads": 1,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\QuantumLab\\python-denoising\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+        "version": "0.3.29",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\QuantumLab\\python-denoising\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ],
+    "sources": {
+      "QAB-denoising": {
+        "commit": "0ec04ac1ae9f5022867f5f004ca67e99507c6c9f",
+        "changes": ""
+      },
+      "De-QuIP-Denoising": {
+        "commit": "384e24f217ea71352fd48ff715fb84b0c4b487f8",
+        "changes": ""
+      }
+    },
+    "source_file": "D:\\QuantumLab\\repos\\QAB-denoising\\Image\\sample_image.mat",
+    "source_sha256": "6efd5c4868379157e463d5d730c7780f34d173da48c343298bc0e0512f00f9d5",
+    "protocol": "full denoiser call, warmed, serial CPU, I/O and metrics excluded",
+    "resize": "Pillow float32 bilinear, then float64; exact arrays exported to MAT",
+    "matlab_status": "not_run"
+  },
+  "results": [
+    {
+      "case": "image_64",
+      "algorithm": "QAB-oracle",
+      "key": "qab",
+      "shape": [
+        64,
+        64
+      ],
+      "noise": "heteroscedastic",
+      "snr_db": 15.0,
+      "seed": 2,
+      "peak": 13.0,
+      "oracle": true,
+      "config": {
+        "patch_size": 64,
+        "stride": 32,
+        "slopes": 20,
+        "weight": 3.0,
+        "gaussian_variance": 7.5,
+        "threshold_step": 12,
+        "patience": 20,
+        "threshold": null,
+        "slope": 128.0
+      },
+      "timing": {
+        "seconds": [
+          9.437890499946661,
+          9.409805599949323,
+          9.771946500055492
+        ],
+        "median_seconds": 9.437890499946661,
+        "min_seconds": 9.409805599949323,
+        "max_seconds": 9.771946500055492,
+        "warmup_seconds": [
+          9.459963799919933
+        ]
+      },
+      "input_quality": {
+        "mse": 0.8257136208794664,
+        "psnr_db": 23.1105725588551,
+        "snr_db": 15.000000000000002,
+        "ssim": 0.6880304607955913
+      },
+      "quality": {
+        "mse": 0.11384821925069338,
+        "psnr_db": 31.71560462597477,
+        "snr_db": 23.605032067119676,
+        "ssim": 0.9125540250873059,
+        "upstream_psnr_db": 32.446300037122896,
+        "upstream_ssim": 0.9125400877809765
+      },
+      "input_sha256": "efea1851a3005bf9edccf86787f216debee985df52eea4e0be2b265c00d54f63"
+    }
+  ]
+}
