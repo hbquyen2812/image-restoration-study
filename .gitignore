@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+@'
+
+# Local datasets and generated outputs
+/data/
+/checkpoints/
+/outputs/
+
+# Python environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Model weights
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Local credentials
+.env
+.env.*
+'@ | Add-Content -LiteralPath ".gitignore" -Encoding utf8
